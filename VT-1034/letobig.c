@@ -58,7 +58,7 @@ i++;
 p1++;
 }
 for(i=0;i<s;i++)
-printf("%x",p[i]);
+printf("%x\n",p[i]);
 memcpy(&n,p,4);
 printf("%x\n",n);
 }
